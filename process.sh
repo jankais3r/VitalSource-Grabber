@@ -2,7 +2,7 @@
 
 if [ $# -eq 0 ]; then
 	echo "You did not provide the book's IBAN. Rerun the script again like this:"
-	echo "./watermark.sh 9781000710899"
+	echo "./process.sh 9781000710899"
 	exit 1
 else
 	DIR=$HOME"/Downloads/"$1

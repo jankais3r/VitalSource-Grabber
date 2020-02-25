@@ -36,7 +36,7 @@ The script `process.sh` takes care of the cleanup of the downloaded pages. First
 ![Process stages](https://github.com/jankais3r/VitalSource-Grabber/blob/master/images/process_stages.png)
 
 Just run the script with IBAN of the downloaded book as the only parameter and you should be good.
-Like this `./watermark.sh 9781000710899`
+Like this `./process.sh 9781000710899`
 
 ## Step 4 (Merge individual pages into a single PDF file)
 This one is easy - just select all images, right-click and select Quick Actions > Create PDF
